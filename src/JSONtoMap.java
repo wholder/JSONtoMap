@@ -7,7 +7,7 @@ import java.util.*;
 /*
   *  Scaled-down JSON parser that works with a subset of the JSON spec and returns a nested
   *  structure of Maps and Lists that contain only String keys and values.
-  *  Author: Wayne Holder, 2011-2019
+  *  Author: Wayne Holder, 2020
   *  License: MIT (https://opensource.org/licenses/MIT)
  */
 
