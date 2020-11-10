@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3893df4b-ae37-4706-b916-10ceb018bcb8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,13 +55,27 @@
       <option name="presentableId" value="Default" />
       <updated>1604782276876</updated>
     </task>
+    <task id="LOCAL-00001" summary="Update readme">
+      <created>1604819923966</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604819923966</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Update readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update readme" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="848" y="407" key="CommitChangelistDialog2" timestamp="1604819923786">
+      <screen x="0" y="23" width="2560" height="1577" />
+    </state>
+    <state x="848" y="407" key="CommitChangelistDialog2/0.23.2560.1577@0.23.2560.1577" timestamp="1604819923786" />
     <state x="1080" y="715" width="419" height="216" key="Github.ShareDialog" timestamp="1604789043191">
       <screen x="0" y="23" width="2560" height="1577" />
     </state>
@@ -71,21 +84,25 @@
       <screen x="0" y="23" width="2560" height="1577" />
     </state>
     <state x="1023" y="525" key="Github.UntrackedFilesDialog/0.23.2560.1577@0.23.2560.1577" timestamp="1604789051258" />
-    <state width="1390" height="293" key="GridCell.Tab.0.bottom" timestamp="1604789088065">
+    <state width="1390" height="293" key="GridCell.Tab.0.bottom" timestamp="1604952402797">
       <screen x="0" y="23" width="2560" height="1577" />
     </state>
-    <state width="1390" height="293" key="GridCell.Tab.0.bottom/0.23.2560.1577@0.23.2560.1577" timestamp="1604789088065" />
-    <state width="1390" height="293" key="GridCell.Tab.0.center" timestamp="1604789088064">
+    <state width="1390" height="293" key="GridCell.Tab.0.bottom/0.23.2560.1577@0.23.2560.1577" timestamp="1604952402797" />
+    <state width="1390" height="293" key="GridCell.Tab.0.center" timestamp="1604952402796">
       <screen x="0" y="23" width="2560" height="1577" />
     </state>
-    <state width="1390" height="293" key="GridCell.Tab.0.center/0.23.2560.1577@0.23.2560.1577" timestamp="1604789088064" />
-    <state width="1390" height="293" key="GridCell.Tab.0.left" timestamp="1604789088064">
+    <state width="1390" height="293" key="GridCell.Tab.0.center/0.23.2560.1577@0.23.2560.1577" timestamp="1604952402796" />
+    <state width="1390" height="293" key="GridCell.Tab.0.left" timestamp="1604952402796">
       <screen x="0" y="23" width="2560" height="1577" />
     </state>
-    <state width="1390" height="293" key="GridCell.Tab.0.left/0.23.2560.1577@0.23.2560.1577" timestamp="1604789088064" />
-    <state width="1390" height="293" key="GridCell.Tab.0.right" timestamp="1604789088065">
+    <state width="1390" height="293" key="GridCell.Tab.0.left/0.23.2560.1577@0.23.2560.1577" timestamp="1604952402796" />
+    <state width="1390" height="293" key="GridCell.Tab.0.right" timestamp="1604952402797">
       <screen x="0" y="23" width="2560" height="1577" />
     </state>
-    <state width="1390" height="293" key="GridCell.Tab.0.right/0.23.2560.1577@0.23.2560.1577" timestamp="1604789088065" />
+    <state width="1390" height="293" key="GridCell.Tab.0.right/0.23.2560.1577@0.23.2560.1577" timestamp="1604952402797" />
+    <state x="814" y="551" key="Vcs.Push.Dialog.v2" timestamp="1604819925570">
+      <screen x="0" y="23" width="2560" height="1577" />
+    </state>
+    <state x="814" y="551" key="Vcs.Push.Dialog.v2/0.23.2560.1577@0.23.2560.1577" timestamp="1604819925570" />
   </component>
 </project>

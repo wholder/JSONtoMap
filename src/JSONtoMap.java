@@ -89,24 +89,32 @@ public class JSONtoMap {
   private static void expand (StringBuilder buf, Object obj, String indent) {
     if (obj instanceof Map) {
       Map<String,Object> map = (Map) obj;
+      int size = map.size();
+      int count = 0;
       for (String key : map.keySet()) {
         Object val = map.get(key);
         if (val instanceof String) {
-          buf.append(indent).append("\"").append(key).append("\" : \"").append(val).append("\",\n");
+          buf.append(indent).append("\"").append(key).append("\" : \"").append(val).append("\"");
         } else if (val instanceof Map) {
           buf.append(indent).append("\"").append(key).append("\" : {\n");
           expand(buf, val, indent + " ");
-          buf.append(indent).append("},\n");
+          buf.append(indent).append("}");
         } else if (val instanceof List) {
           buf.append(indent).append("\"").append(key).append("\" : [\n");
           expand(buf, val, indent + " ");
-          buf.append(indent).append("],\n");
+          buf.append(indent).append("]");
         }
+        buf.append(++count < size ? ",\n" : "\n");
       }
     } else if (obj instanceof List) {
       List<Object> list = (List) obj;
+      int size = list.size();
+      int count = 0;
       for (Object val : list) {
+        buf.append(indent).append("{\n");
         expand(buf, val, indent + " ");
+        buf.append(indent).append("}");
+        buf.append(++count < size ? ",\n" : "\n");
       }
     }
   }
