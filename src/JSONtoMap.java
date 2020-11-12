@@ -87,11 +87,11 @@ public class JSONtoMap {
   }
 
   private static void expand (StringBuilder buf, Object obj, String indent) {
-    if (obj instanceof Map) {
-      Map<String,Object> map = (Map) obj;
+    if (obj instanceof Map<?,?>) {
+      Map<?,?> map = (Map<?,?>) obj;
       int size = map.size();
       int count = 0;
-      for (String key : map.keySet()) {
+      for (Object key : map.keySet()) {
         Object val = map.get(key);
         if (val instanceof String) {
           buf.append(indent).append("\"").append(key).append("\" : \"").append(val).append("\"");
@@ -106,8 +106,8 @@ public class JSONtoMap {
         }
         buf.append(++count < size ? ",\n" : "\n");
       }
-    } else if (obj instanceof List) {
-      List<Object> list = (List) obj;
+    } else if (obj instanceof List<?>) {
+      List<?> list = (List<?>) obj;
       int size = list.size();
       int count = 0;
       for (Object val : list) {
@@ -134,8 +134,8 @@ public class JSONtoMap {
   /**
    * Test code - reads JSON file and cpnverts to nested Map structure then converts
    * back to indented JSON file and prints contents
-   * @param args
-   * @throws IOException
+   * @param args command line args
+   * @throws IOException I/O Exception
    */
   public static void main (String[] args) throws IOException {
     InputStream fis = new FileInputStream("resources/test.json");
